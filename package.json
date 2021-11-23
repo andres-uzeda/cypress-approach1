@@ -1,0 +1,14 @@
+{
+  "name": "cypress-approach1",
+  "version": "1.0.0",
+  "description": "Automation UI approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Uzeda",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
