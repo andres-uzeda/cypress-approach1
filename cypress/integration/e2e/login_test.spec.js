@@ -2,9 +2,9 @@
 
 describe('Login test', () => {
     it('Verify that an user could login to the site', () => {
-        cy.visit('https://www.saucedemo.com/')
-        cy.get('#user-name').type('standard_user')
-        cy.get('#password').type('secret_sauce')
+        cy.visit('/')
+        cy.get('#user-name').type(Cypress.env('userName'))
+        cy.get('#password').type(Cypress.env('password'))
         cy.get('#login-button').click()
         cy.get('[class="title"]').invoke('text').should('equal', 'Products')
         cy.get('#react-burger-menu-btn').click()
