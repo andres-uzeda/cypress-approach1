@@ -1,4 +1,8 @@
 {
     "chromeWebSecurity": false,
-    "baseUrl": "https://www.saucedemo.com"
+    "baseUrl": "https://www.saucedemo.com",
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    }
 }

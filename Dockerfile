@@ -8,4 +8,3 @@ RUN apt-get install -y libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-
 COPY . /cypress-framework
 RUN cd /cypress-framework
 RUN npm install
-# RUN npx cypress install
